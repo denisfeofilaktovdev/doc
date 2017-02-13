@@ -2,7 +2,7 @@
 
 int main()
 {
-	printf("Hello Petuchi!\n");
+	printf("Hello Pפûגפûגפûגפûגi!\n");
 
 	system("pause");
 	return 0;
