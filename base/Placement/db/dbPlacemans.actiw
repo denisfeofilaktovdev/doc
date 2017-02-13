@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<model xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="10.0.0.1" Id="8b19346b-cc5b-476c-9efb-2de6275fe7b8" manyToManyCollectionIDColumnType="AnsiChar" manyToManyCollectionIDGenerator="None" xmlns="http://schemas.microsoft.com/dsltools/ActiveWriter">
+  <additionalImports>AAEAAAD/////AQAAAAAAAAAMAgAAAF1DYXN0bGUuQWN0aXZlV3JpdGVyLkRzbCwgVmVyc2lvbj0xLjIwMTAuMC4xLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTYwMzA0NTg1MTgzMWVkNWMEAQAAAJ4BU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuTGlzdGAxW1tDYXN0bGUuQWN0aXZlV3JpdGVyLkltcG9ydCwgQ2FzdGxlLkFjdGl2ZVdyaXRlci5Ec2wsIFZlcnNpb249MS4yMDEwLjAuMSwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj02MDMwNDU4NTE4MzFlZDVjXV0DAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgQAABxDYXN0bGUuQWN0aXZlV3JpdGVyLkltcG9ydFtdAgAAAAgICQMAAAAAAAAAAAAAAAcDAAAAAAEAAAAAAAAABBpDYXN0bGUuQWN0aXZlV3JpdGVyLkltcG9ydAIAAAAL</additionalImports>
+  <classes>
+    <modelClass name="tPlacementsDepEco">
+      <targets>
+        <manyToOneRelation Id="3b0926d5-645f-408e-ab21-a0e1375afc3d">
+          <modelClassMoniker name="/8b19346b-cc5b-476c-9efb-2de6275fe7b8/tDepartmentECO" />
+        </manyToOneRelation>
+      </targets>
+      <properties>
+        <modelProperty Id="46a462f4-5d82-41e2-836c-48dc64a6384b" name="ID_PlacementDepEco" column="ID_PlacementDepEco" columnType="Int32" length="0" keyType="PrimaryKey" />
+        <modelProperty Id="a2c4eca5-df6a-4f52-94d9-89c2e4e0c3fe" name="PostDepECO" column="PostDepECO" length="0" />
+        <modelProperty Id="fae58bfb-add0-4eb9-b521-d6fcbdf7c745" name="ShortPostDepECO" column="ShortPostDepECO" length="0" />
+        <modelProperty Id="cf4132f4-548b-4556-bed1-ed6b113534d6" name="PostGenitiveDepECO" column="PostGenitiveDepECO" length="0" />
+        <modelProperty Id="c0b98e23-c60c-4639-9c96-1499f26887d4" name="PostDativeDepECO" column="PostDativeDepECO" length="0" />
+        <modelProperty Id="f3d064c0-4998-4b48-9b8d-88cb8827854c" name="NameDepECO" column="NameDepECO" length="0" />
+        <modelProperty Id="711f89c4-82bc-4211-9d6d-f8f7ca7f0ccc" name="NameGenitiveDepECO" column="NameGenitiveDepECO" length="0" />
+        <modelProperty Id="cb5461c5-b744-4950-a3c8-35ec90c36d40" name="NameDativeDepECO" column="NameDativeDepECO" length="0" />
+        <modelProperty Id="1bdaf875-2968-475d-a1a2-a56b4763af17" name="Default_" column="Default_" columnType="Boolean" length="0" />
+        <modelProperty Id="4b6257d9-30be-4733-97b1-e460c8d751f4" name="Phone" column="Phone" length="0" />
+        <modelProperty Id="08584124-a5d5-47df-b72d-592f85825ea9" name="PhoneMobile" column="PhoneMobile" length="0" />
+        <modelProperty Id="db189a0b-b4c9-4800-9e20-a4d0e905fab3" name="Email_" column="Email_" length="0" />
+        <modelProperty Id="a503579c-e051-4f7a-a656-ebb008495743" name="vk_com" column="vk_com" length="0" />
+        <modelProperty Id="8b1f66ee-79a1-4d41-9aa8-252e0ec8a2d6" name="facebook" column="facebook" length="0" />
+        <modelProperty Id="51cdce51-d796-4d67-88bd-f9b1bf5fabba" name="twitter" column="twitter" length="0" />
+        <modelProperty Id="b03a1a7a-89db-433c-a48c-b56e57df165c" name="Other" column="Other" length="0" />
+      </properties>
+    </modelClass>
+    <modelClass name="tDepartmentECO">
+      <properties>
+        <modelProperty Id="6f3c29a5-8c15-477b-b680-2057c47784c7" name="ID_DepartmentECO" column="ID_DepartmentECO" columnType="Int32" length="0" keyType="PrimaryKey" />
+        <modelProperty Id="ae29cc74-f998-4053-8e1d-3cc207eb2570" name="DepECO" column="DepECO" length="0" />
+        <modelProperty Id="4a93a578-2c29-4c78-8f1b-64212df7110c" name="ShortDepECO" column="ShortDepECO" length="0" />
+        <modelProperty Id="7eabfec9-2444-4172-8a3c-2f246577bea7" name="AdresDepECO" column="AdresDepECO" length="0" />
+        <modelProperty Id="69904e96-05f8-4110-831e-6946576d1872" name="SiteDepECO" column="SiteDepECO" length="0" />
+        <modelProperty Id="4b776942-cdae-4ded-beb3-105ff11eaa65" name="vk_com" column="vk_com" length="0" />
+        <modelProperty Id="f4506a7a-7d49-41bd-af6c-620f9001f945" name="facebook" column="facebook" length="0" />
+        <modelProperty Id="6ea3d3ed-4ecf-4660-b2ef-c1f40ec57a25" name="twitter" column="twitter" length="0" />
+        <modelProperty Id="c2ca5453-59b1-4394-af1d-0ba2e086210d" name="Other" column="Other" length="0" />
+        <modelProperty Id="492e1f21-4b38-43d0-a583-629d95256414" name="icon_" column="icon_" columnType="BinaryBlob" length="0" />
+        <modelProperty Id="51f325a5-8949-4801-8224-a29b143b6286" name="Phone" column="Phone" length="0" />
+      </properties>
+      <oneToOneTarget>
+        <oneToOneRelation>
+          <modelClassMoniker name="/8b19346b-cc5b-476c-9efb-2de6275fe7b8/tRegion" />
+        </oneToOneRelation>
+      </oneToOneTarget>
+    </modelClass>
+    <modelClass name="tPlacementRegionCEC">
+      <targets>
+        <manyToOneRelation Id="fe738595-567b-43b4-afa0-64a709e1bb1c">
+          <modelClassMoniker name="/8b19346b-cc5b-476c-9efb-2de6275fe7b8/tRegionCEC" />
+        </manyToOneRelation>
+      </targets>
+      <properties>
+        <modelProperty Id="3572696a-b634-4df7-9bba-274f592cf70b" name="ID_PlacementRegionCEC" column="ID_PlacementRegionCEC" columnType="Int32" length="0" keyType="PrimaryKey" />
+        <modelProperty Id="2c10da4f-c429-44e7-bb11-d47365ef63f2" name="PostRegionCEC" column="PostRegionCEC" length="0" />
+        <modelProperty Id="6c17d852-c9f8-44e9-bba6-c2f2fcb7c298" name="ShortPostRegionCEC" column="ShortPostRegionCEC" length="0" />
+        <modelProperty Id="2aaa578d-725b-4d15-81e9-d60115e7d8b8" name="PostGenitiveRegionCEC" column="PostGenitiveRegionCEC" length="0" />
+        <modelProperty Id="4dcd8f33-92c4-4b9f-919f-3219ba396780" name="PostDativeRegionCEC" column="PostDativeRegionCEC" length="0" />
+        <modelProperty Id="e62934fc-2865-41b1-a0c2-4b2ff168bb33" name="NameRegionCEC" column="NameRegionCEC" length="0" />
+        <modelProperty Id="8c6378d6-10f2-47fb-a0e4-102c45b57cc3" name="NameGenitiveRegionCEC" column="NameGenitiveRegionCEC" length="0" />
+        <modelProperty Id="4fbba2d9-d1a5-45b5-9eb2-e09fb7c544cd" name="NameDativeRegionCEC" column="NameDativeRegionCEC" length="0" />
+        <modelProperty Id="5531dabe-1e37-49ce-a424-60cf3886d186" name="Default_" column="Default_" columnType="Boolean" length="0" />
+        <modelProperty Id="5f14dd9d-28ff-44a5-8898-f1ad53586725" name="Phone" column="Phone" length="0" />
+        <modelProperty Id="b8632deb-6ff8-493e-8e4b-9173f712ecd7" name="PhoneMobile" column="PhoneMobile" length="0" />
+        <modelProperty Id="cf9ef3e1-b025-4e99-8e88-669f10efb189" name="Email_" column="Email_" length="0" />
+        <modelProperty Id="3d21c479-e283-41db-94a9-4eefcd65e72b" name="vk_com" column="vk_com" length="0" />
+        <modelProperty Id="45ae51de-47e0-43b9-b118-d8c4b3cdc8b1" name="facebook" column="facebook" length="0" />
+        <modelProperty Id="54d3ea70-439a-436d-bd3a-c99c5bd46030" name="twitter" column="twitter" length="0" />
+        <modelProperty Id="4e52f4f0-41d6-4ae2-bcb4-891cbdc466c7" name="Other" column="Other" length="0" />
+      </properties>
+    </modelClass>
+    <modelClass name="tRegionCEC">
+      <properties>
+        <modelProperty Id="7c7f08eb-3824-4e4f-9bb4-c112df3b042d" name="ID_RegionCEC" column="ID_RegionCEC" columnType="Int32" length="0" keyType="PrimaryKey" />
+        <modelProperty Id="2c6991bc-6111-4076-92f9-aeef87eae9e9" name="RegionCEC" column="RegionCEC" length="0" />
+        <modelProperty Id="2d496069-3340-47e1-9001-6ce8c0e4fa08" name="ShortRegionCEC" column="ShortRegionCEC" length="0" />
+        <modelProperty Id="3498cb78-56b4-47de-9006-48d658a31482" name="AdresRegionCEC" column="AdresRegionCEC" length="0" />
+        <modelProperty Id="7cf237fe-11e9-4289-bd4a-127695162759" name="SiteRegionCEC" column="SiteRegionCEC" length="0" />
+        <modelProperty Id="2f79a802-3d9f-4de4-bf24-5ce762979cc1" name="vk_com" column="vk_com" length="0" />
+        <modelProperty Id="36f92466-5c75-4005-a096-3854df3cd614" name="facebook" column="facebook" length="0" />
+        <modelProperty Id="a58d91c7-9f82-4f5f-8337-5a637a869d56" name="twitter" column="twitter" length="0" />
+        <modelProperty Id="66406fb8-d02b-4ddd-85ff-15ebf8b0d768" name="Other" column="Other" length="0" />
+        <modelProperty Id="a4e4320a-3b6a-4e69-bda2-a532a961ef97" name="icon_" column="icon_" columnType="BinaryBlob" length="0" />
+        <modelProperty Id="6a54c6e5-41c7-4ca8-82ce-ef40b4880c6d" name="Phone" column="Phone" length="0" />
+      </properties>
+      <oneToOneTarget>
+        <oneToOneRelation>
+          <modelClassMoniker name="/8b19346b-cc5b-476c-9efb-2de6275fe7b8/tRegion" />
+        </oneToOneRelation>
+      </oneToOneTarget>
+    </modelClass>
+    <modelClass name="tPlacementsRegionAgencyWarer">
+      <targets>
+        <manyToOneRelation Id="586e121d-cd86-4ac1-8f78-58a7dc4b9c9b">
+          <modelClassMoniker name="/8b19346b-cc5b-476c-9efb-2de6275fe7b8/tRegionAgencyWarer" />
+        </manyToOneRelation>
+      </targets>
+      <properties>
+        <modelProperty Id="368ea233-83ae-4d71-bae6-5cf3c6d87b0a" name="ID_PlacementsRAW" column="ID_PlacementsRAW" columnType="Int32" length="0" keyType="PrimaryKey" />
+        <modelProperty Id="5c2bb121-938f-4ff3-898f-b077b0e6ae1e" name="PostRAW" column="PostRAW" length="0" />
+        <modelProperty Id="74b9a5e8-4408-460b-b201-e52cb93ab66a" name="ShortPostRAW" column="ShortPostRAW" length="0" />
+        <modelProperty Id="488cff25-f79b-47e4-a5af-dca838b39abf" name="PostGenitiveRAW" column="PostGenitiveRAW" length="0" />
+        <modelProperty Id="c6ccc39c-3457-446b-bbfd-4a3e19dcb179" name="PostDativeRAW" column="PostDativeRAW" length="0" />
+        <modelProperty Id="cb6a6809-7857-4fef-8639-9480613fcda1" name="NameRAW" column="NameRAW" length="0" />
+        <modelProperty Id="74361e7a-7f9e-4e97-8c6b-d700f19a09b8" name="NameGenitiveRAW" column="NameGenitiveRAW" length="0" />
+        <modelProperty Id="e8a97a46-5083-4b0d-8dbf-8097ac9467fd" name="NameDativeRAW" column="NameDativeRAW" length="0" />
+        <modelProperty Id="74d9cf18-0ce5-4a52-8cb0-601149a5d284" name="Default_" column="Default_" columnType="Boolean" length="0" />
+        <modelProperty Id="3d29507c-a2f5-4a52-abaf-9e0df7ef96c4" name="Phone" column="Phone" length="0" />
+        <modelProperty Id="09c39ac7-d916-4ec4-986d-3d49917893ad" name="PhoneMobile" column="PhoneMobile" length="0" />
+        <modelProperty Id="39d573bb-3a92-4c67-ab68-428bce57b61a" name="Email_" column="Email_" length="0" />
+        <modelProperty Id="2b28c813-118f-4266-bed2-b2856be48947" name="vk_com" column="vk_com" length="0" />
+        <modelProperty Id="5f22cc90-a36a-41de-b7ca-02cfae69d33b" name="facebook" column="facebook" length="0" />
+        <modelProperty Id="9f5a5368-1f59-4501-a1a5-1998a4c955d1" name="twitter" column="twitter" length="0" />
+        <modelProperty Id="5c03cd7b-ff18-466c-8fd1-367e9656b691" name="Other" column="Other" length="0" />
+      </properties>
+    </modelClass>
+    <modelClass name="tRegionAgencyWarer">
+      <properties>
+        <modelProperty Id="9fb9bb57-dc4a-4268-a37c-e9611c64eb96" name="ID_RAW" column="ID_RAW" columnType="Int32" length="0" keyType="PrimaryKey" />
+        <modelProperty Id="4ae4505d-c42d-4129-a975-01713381e99a" name="RAW" column="RAW" length="0" />
+        <modelProperty Id="84a8e41b-affc-40d7-8e9b-105ab68bab6c" name="ShortRAW" column="ShortRAW" length="0" />
+        <modelProperty Id="5b5276a5-156f-4bcc-9752-34ea76ed989d" name="AdresRAW" column="AdresRAW" length="0" />
+        <modelProperty Id="6e764a5c-9cad-4c27-a577-6ff21acf5384" name="SiteRAW" column="SiteRAW" length="0" />
+        <modelProperty Id="b74718ca-7bfc-440e-af95-1263097cdff3" name="vk_com" column="vk_com" length="0" />
+        <modelProperty Id="9752dd79-dd56-4664-ae8f-236133ddd976" name="facebook" column="facebook" length="0" />
+        <modelProperty Id="3f7ac5ae-d14b-4141-bfbd-ff915824c5d4" name="twitter" column="twitter" length="0" />
+        <modelProperty Id="f3c01958-75c2-4f65-94e8-babeaed5822e" name="Other" column="Other" length="0" />
+        <modelProperty Id="9c2236c0-711a-4732-b488-817501d5704a" name="icon_" column="icon_" columnType="BinaryBlob" length="0" />
+        <modelProperty Id="15e7ef38-f5be-4ad9-b8ff-613b469590f7" name="Phone" column="Phone" length="0" />
+      </properties>
+      <oneToOneTarget>
+        <oneToOneRelation>
+          <modelClassMoniker name="/8b19346b-cc5b-476c-9efb-2de6275fe7b8/tRegion" />
+        </oneToOneRelation>
+      </oneToOneTarget>
+    </modelClass>
+    <modelClass name="tRegion">
+      <properties>
+        <modelProperty Id="da717bb9-d8ec-43ae-bb70-2eec7805e37d" name="ID_Region" column="ID_Region" columnType="Int32" length="0" keyType="PrimaryKey" />
+        <modelProperty Id="87ae5cd3-0b7d-44b1-9d63-3eedc8c9f07f" name="Region" column="Region" length="0" />
+        <modelProperty Id="e435caff-dc9b-4a83-b460-690eeea2d2ba" name="GenitiveRegion" column="GenitiveRegion" length="0" />
+        <modelProperty Id="09fc624e-6948-45c3-813f-a489e24d16d0" name="DativeRegion" column="DativeRegion" length="0" />
+        <modelProperty Id="f1605ca1-d241-424f-b5cb-e6cd9def2bf9" name="Other" column="Other" length="0" />
+        <modelProperty Id="d91fa673-6af7-45a8-9bc7-c26ae920b5bf" name="icon_" column="icon_" columnType="BinaryBlob" length="0" />
+      </properties>
+    </modelClass>
+    <modelClass name="tDistrict">
+      <targets>
+        <manyToOneRelation Id="290dcb37-84c6-4c9c-9e27-0c254b633f88">
+          <modelClassMoniker name="/8b19346b-cc5b-476c-9efb-2de6275fe7b8/tRegion" />
+        </manyToOneRelation>
+      </targets>
+      <properties>
+        <modelProperty Id="8d57a61c-318f-4358-aaba-cad20b88e46b" name="ID_District" column="ID_District" columnType="Int32" length="0" keyType="PrimaryKey" />
+        <modelProperty Id="d286f7bd-2c7d-40f2-a126-ef63ecbb5378" name="District" column="District" length="0" />
+        <modelProperty Id="e207f92a-a886-49a3-8046-14360350c9e4" name="GenitiveDistrict" column="GenitiveDistrict" length="0" />
+        <modelProperty Id="a4cea062-2fdc-4ee5-b05b-f917a50e0c28" name="DativeDistrict" column="DativeDistrict" length="0" />
+        <modelProperty Id="f814b12f-08d2-4a87-aee3-af56ecae67ca" name="Other" column="Other" length="0" />
+        <modelProperty Id="ce522927-e530-4fbf-933a-769dc5e9b0e7" name="icon_" column="icon_" columnType="BinaryBlob" length="0" />
+      </properties>
+    </modelClass>
+    <modelClass name="tRegionalStateAdministration">
+      <properties>
+        <modelProperty Id="862796d1-95bd-4f2b-8036-60ce58f23902" name="ID_RSA" column="ID_RSA" columnType="Int32" length="0" keyType="PrimaryKey" />
+        <modelProperty Id="014af011-1e41-4d4d-b7e4-69f3a696cb16" name="RSA" column="RSA" length="0" />
+        <modelProperty Id="a3a5f8f9-05f9-44dc-baf1-8f06df448004" name="ShortRSA" column="ShortRSA" length="0" />
+        <modelProperty Id="af7c2c66-e690-4caf-b51a-0875a88c1b36" name="AdresRSA" column="AdresRSA" length="0" />
+        <modelProperty Id="1830c0d8-c54d-4a83-9551-77278a997604" name="SiteRSA" column="SiteRSA" length="0" />
+        <modelProperty Id="0a4d1968-be06-4454-857e-70d22b9a4db1" name="vk_com" column="vk_com" length="0" />
+        <modelProperty Id="3d176fe7-9dcb-4f2f-ae00-c5e4613b268e" name="facebook" column="facebook" length="0" />
+        <modelProperty Id="65cda57d-a100-464e-ac7a-0337b165cd39" name="twitter" column="twitter" length="0" />
+        <modelProperty Id="ee380b46-1c9a-4a70-95f3-970c57b8237c" name="Other" column="Other" length="0" />
+        <modelProperty Id="c65ebca5-d926-4f3b-9621-361325e2cce8" name="icon_" column="icon_" columnType="BinaryBlob" length="0" />
+        <modelProperty Id="a4f502df-c731-4094-b8a0-9a60480b1362" name="Phone" column="Phone" length="0" />
+      </properties>
+      <oneToOneTarget>
+        <oneToOneRelation>
+          <modelClassMoniker name="/8b19346b-cc5b-476c-9efb-2de6275fe7b8/tRegion" />
+        </oneToOneRelation>
+      </oneToOneTarget>
+    </modelClass>
+    <modelClass name="tPlacementsRegionalStateAdministration">
+      <targets>
+        <manyToOneRelation Id="0e3e65e9-2dc8-4d9c-9f84-b3eae01e4641">
+          <modelClassMoniker name="/8b19346b-cc5b-476c-9efb-2de6275fe7b8/tRegionalStateAdministration" />
+        </manyToOneRelation>
+      </targets>
+      <properties>
+        <modelProperty Id="682bc8fe-ff43-4f16-9b48-d12581d93c60" name="ID_PlacementsRSA" column="ID_PlacementsRSA" columnType="Int32" length="0" keyType="PrimaryKey" />
+        <modelProperty Id="141f0738-dca5-4eca-9f8d-4b043cd2d8a9" name="PostRSA" column="PostRSA" length="0" />
+        <modelProperty Id="102643b3-1ad8-4150-9419-5e94251ff430" name="ShortPostRSA" column="ShortPostRSA" length="0" />
+        <modelProperty Id="0e0983d1-c64e-443a-af16-10a023dae401" name="PostGenitiveRSA" column="PostGenitiveRSA" length="0" />
+        <modelProperty Id="9a16f331-f4de-4309-b68d-230376bd274d" name="PostDativeRSA" column="PostDativeRSA" length="0" />
+        <modelProperty Id="891263e3-a7b0-4e07-a627-be9ee8e4d8fc" name="NameRSA" column="NameRSA" length="0" />
+        <modelProperty Id="71a5f97c-0c9e-495b-bdb5-f2683b2a0a2d" name="NameGenitiveRSA" column="NameGenitiveRSA" length="0" />
+        <modelProperty Id="f0833f20-31c1-450c-933d-9e8158ce7eb2" name="NameDativeRSA" column="NameDativeRSA" length="0" />
+        <modelProperty Id="2edbe8f7-c240-4f48-8d0e-50dcbf11e2df" name="Default_" column="Default_" columnType="Boolean" length="0" />
+        <modelProperty Id="eb6f1e0d-94f5-4427-8b3f-c433a7e49f42" name="Phone" column="Phone" length="0" />
+        <modelProperty Id="2b0a2443-f07f-42f1-a674-730f4b2f051c" name="PhoneMobile" column="PhoneMobile" length="0" />
+        <modelProperty Id="7c0f7dbf-4abc-432d-9660-2b87287e0c47" name="Email_" column="Email_" length="0" />
+        <modelProperty Id="0acd38ac-23ea-4eec-8587-80075fd7a7b4" name="vk_com" column="vk_com" length="0" />
+        <modelProperty Id="6f3333c8-7e9d-42c3-afe9-7f1ad25dcada" name="facebook" column="facebook" length="0" />
+        <modelProperty Id="8904055b-3f36-439d-b8ef-dabc79b887de" name="twitter" column="twitter" length="0" />
+        <modelProperty Id="8fa87e3c-89ec-4ef7-a66a-84bb9e88756e" name="Other" column="Other" length="0" />
+      </properties>
+    </modelClass>
+    <modelClass name="tDistrictCEC">
+      <properties>
+        <modelProperty Id="c9e2da2e-8182-42da-b279-a93815f03b0c" name="ID_DistrictCEC" column="ID_DistrictCEC" columnType="Int32" length="0" keyType="PrimaryKey" />
+        <modelProperty Id="4dc3c430-21d4-4470-a6f4-8f56e68391eb" name="DistrictCEC" column="DistrictCEC" length="0" />
+        <modelProperty Id="7fddae17-4b5b-4d42-8f32-367fd50a12f9" name="ShortDistrictCEC" column="ShortDistrictCEC" length="0" />
+        <modelProperty Id="52a51c1e-62ab-4a5c-aaac-1dd50394cf5f" name="AdresDistrictCEC" column="AdresDistrictCEC" length="0" />
+        <modelProperty Id="62c19b5f-bd51-4988-a912-fc5d336a4035" name="SiteDistrictCEC" column="SiteDistrictCEC" length="0" />
+        <modelProperty Id="8c07e00d-c108-42e6-9ee8-7ffa9ece9899" name="vk_com" column="vk_com" length="0" />
+        <modelProperty Id="b2e14a5f-2840-4725-a09c-9070d9519b1b" name="facebook" column="facebook" length="0" />
+        <modelProperty Id="86791c2c-4d39-407c-8d56-9e499ccd29d9" name="twitter" column="twitter" length="0" />
+        <modelProperty Id="897d6833-6771-4efa-8f92-29c50b2afc38" name="Other" column="Other" length="0" />
+        <modelProperty Id="689520e6-476f-400a-ae13-8243ec5ba956" name="icon_" column="icon_" columnType="BinaryBlob" length="0" />
+        <modelProperty Id="54a04ccb-361b-430f-b78e-f76a9d9f4f33" name="Phone" column="Phone" length="0" />
+      </properties>
+      <oneToOneTarget>
+        <oneToOneRelation>
+          <modelClassMoniker name="/8b19346b-cc5b-476c-9efb-2de6275fe7b8/tDistrict" />
+        </oneToOneRelation>
+      </oneToOneTarget>
+    </modelClass>
+    <modelClass name="tPlacementsDistrictCEC">
+      <targets>
+        <manyToOneRelation Id="0683b6df-029d-4ab6-9934-9c6b80e11c27">
+          <modelClassMoniker name="/8b19346b-cc5b-476c-9efb-2de6275fe7b8/tDistrictCEC" />
+        </manyToOneRelation>
+      </targets>
+      <properties>
+        <modelProperty Id="22203566-3d3d-44e4-bb46-f873568f51af" name="ID_PlacementsDistrictCEC" column="ID_PlacementsDistrictCEC" columnType="Int32" length="0" keyType="PrimaryKey" />
+        <modelProperty Id="2208d494-d9bc-4b9c-9d8c-2d7aabb9baab" name="PostDistrictCEC" column="PostDistrictCEC" length="0" />
+        <modelProperty Id="74202cd2-f2be-47b0-ad11-0eb68522506d" name="ShorDistrictCEC" column="ShorDistrictCEC" length="0" />
+        <modelProperty Id="ab44920d-d601-419a-af53-878c6c718346" name="PostGenitiveDistrictCEC" column="PostGenitiveDistrictCEC" length="0" />
+        <modelProperty Id="3c376da1-78b0-4c34-a808-2c99ce8b3cc5" name="PostDativeDistrictCEC" column="PostDativeDistrictCEC" length="0" />
+        <modelProperty Id="42de7241-ffe2-40a0-9593-4b863ac8e510" name="NameDistrictCEC" column="NameDistrictCEC" length="0" />
+        <modelProperty Id="7a01ee5d-9311-4bec-af95-13a7a63d0d47" name="NameGenitiveDistrictCEC" column="NameGenitiveDistrictCEC" length="0" />
+        <modelProperty Id="22ebd9b3-d2de-48c9-bd62-1e7135ae1ab3" name="NameDativeDistrictCEC" column="NameDativeDistrictCEC" length="0" />
+        <modelProperty Id="762596e8-6f4c-4bbb-b3be-f69aee9b1820" name="Default_" column="Default_" columnType="Boolean" length="0" />
+        <modelProperty Id="3e9847c6-7fe4-4344-98ce-ee41394a8df7" name="Phone" column="Phone" length="0" />
+        <modelProperty Id="6b163ccd-bea2-488e-99a3-5235a9137d1a" name="PhoneMobile" column="PhoneMobile" length="0" />
+        <modelProperty Id="98d0bd1c-9dbd-4288-94f2-94f8bed8ca83" name="Email_" column="Email_" length="0" />
+        <modelProperty Id="6ee9c5e4-3b7a-4edd-b491-d298b050fbb3" name="vk_com" column="vk_com" length="0" />
+        <modelProperty Id="7be17b7e-124f-4d31-bd9e-21749b4f5310" name="facebook" column="facebook" length="0" />
+        <modelProperty Id="1f17cd72-a14f-435e-bd5c-912626aa5b7e" name="twitter" column="twitter" length="0" />
+        <modelProperty Id="64be6309-dae9-4dc3-8064-ac518cab131c" name="Other" column="Other" length="0" />
+      </properties>
+    </modelClass>
+    <modelClass name="tDistrictStateAdministration">
+      <properties>
+        <modelProperty Id="b71cc75b-4200-4269-b0cf-12a29b18e5a0" name="ID_DSA" column="ID_DSA" columnType="Int32" length="0" keyType="PrimaryKey" />
+        <modelProperty Id="59d3904c-cdf0-4b05-b734-2bba19b604be" name="DSA" column="DSA" length="0" />
+        <modelProperty Id="1b2ea128-85cc-4d00-8500-1c7480ebd583" name="ShortDSA" column="ShortDSA" length="0" />
+        <modelProperty Id="70a6da48-2b62-4e69-b85f-2b074d0b3ab8" name="AdresDSA" column="AdresDSA" length="0" />
+        <modelProperty Id="a8736f6a-4cad-4ca1-a60c-b4cde45d5974" name="SiteDSA" column="SiteDSA" length="0" />
+        <modelProperty Id="2d8e4cfc-f3fe-4563-81f0-f71a00cf9232" name="vk_com" column="vk_com" length="0" />
+        <modelProperty Id="c56cbfd9-c5ac-44de-b27c-3fc002d35e09" name="facebook" column="facebook" length="0" />
+        <modelProperty Id="4039c062-ecfa-4579-aa83-8f0ac71152b9" name="twitter" column="twitter" length="0" />
+        <modelProperty Id="154dd876-095f-4d65-9c04-26aa4691f31c" name="Other" column="Other" length="0" />
+        <modelProperty Id="919ba88c-c24f-4501-ba28-cb8599b6a902" name="icon_" column="icon_" columnType="BinaryBlob" length="0" />
+        <modelProperty Id="ba2c25be-9a59-404a-be5f-70428ff0749c" name="Phone" column="Phone" length="0" />
+      </properties>
+      <oneToOneTarget>
+        <oneToOneRelation>
+          <modelClassMoniker name="/8b19346b-cc5b-476c-9efb-2de6275fe7b8/tDistrict" />
+        </oneToOneRelation>
+      </oneToOneTarget>
+    </modelClass>
+    <modelClass name="tPlacementsDistrictStateAdministration">
+      <targets>
+        <manyToOneRelation Id="51eaf45c-e687-4d2e-802d-50cddeb70352">
+          <modelClassMoniker name="/8b19346b-cc5b-476c-9efb-2de6275fe7b8/tDistrictStateAdministration" />
+        </manyToOneRelation>
+      </targets>
+      <properties>
+        <modelProperty Id="81f2ed24-b997-4ebc-9309-97ba7a82dd8c" name="ID_PlacementsDSA" column="ID_PlacementsDSA" columnType="Int32" length="0" keyType="PrimaryKey" />
+        <modelProperty Id="a9a29617-73a2-4ffb-9616-9b28d7a0555e" name="PostDSA" column="PostDSA" length="0" />
+        <modelProperty Id="a60f5804-ce94-43c2-a52e-3967ea33b079" name="ShortPostDSA" column="ShortPostDSA" length="0" />
+        <modelProperty Id="d0aa610d-7f83-4827-ac33-a54145e4104a" name="PostGenitiveDSA" column="PostGenitiveDSA" length="0" />
+        <modelProperty Id="ad8d9b1c-fe4f-4321-8dae-fcc6b5e1c854" name="PostDativeDSA" column="PostDativeDSA" length="0" />
+        <modelProperty Id="4e2bfe76-d439-4a56-a9ff-666365df7bd5" name="NameDSA" column="NameDSA" length="0" />
+        <modelProperty Id="3187c98e-5f2f-46cb-b552-9434c32c9e15" name="NameGenitiveDSA" column="NameGenitiveDSA" length="0" />
+        <modelProperty Id="cfef9526-b44b-4986-bb4f-e83d9b0e63fd" name="NameDativeDSA" column="NameDativeDSA" length="0" />
+        <modelProperty Id="5716a3ca-e555-42b6-a9b5-294cce7a355a" name="Default_" column="Default_" columnType="Boolean" length="0" />
+        <modelProperty Id="6ca3c771-d893-4193-a72e-9823844dd348" name="Phone" column="Phone" length="0" />
+        <modelProperty Id="6de85819-d811-4ff8-9944-a49d05e6b162" name="PhoneMobile" column="PhoneMobile" length="0" />
+        <modelProperty Id="363a82fe-16d9-4096-b2b2-8fa116a9bfc0" name="Email_" column="Email_" length="0" />
+        <modelProperty Id="59a7d4a6-1840-497a-8fee-1d43962576da" name="vk_com" column="vk_com" length="0" />
+        <modelProperty Id="63738377-feb8-4fea-beb8-67f589d367ab" name="facebook" column="facebook" length="0" />
+        <modelProperty Id="9aa19c7b-480f-46eb-ace6-7c0c9dad6fa2" name="twitter" column="twitter" length="0" />
+        <modelProperty Id="1ba4c364-a2aa-43c3-a54b-3603d9a74071" name="Other" column="Other" length="0" />
+      </properties>
+    </modelClass>
+  </classes>
+</model>

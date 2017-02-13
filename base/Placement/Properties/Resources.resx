@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="constAgencyWarer" xml:space="preserve">
+    <value>AgencyWarer</value>
+  </data>
+  <data name="constDepartmentECO" xml:space="preserve">
+    <value>DepartmentECO</value>
+  </data>
+  <data name="constDistrict" xml:space="preserve">
+    <value>District</value>
+  </data>
+  <data name="constDistrictCEC" xml:space="preserve">
+    <value>DistrictCEC</value>
+  </data>
+  <data name="constGeologicalCompany" xml:space="preserve">
+    <value>GeologicalCompany</value>
+  </data>
+  <data name="constGeologicalService" xml:space="preserve">
+    <value>GeologicalService</value>
+  </data>
+  <data name="constMinistryECO" xml:space="preserve">
+    <value>MinistryECO</value>
+  </data>
+  <data name="constPlacementRegionCEC" xml:space="preserve">
+    <value>PlacementRegionCEC</value>
+  </data>
+  <data name="constPlacementsAgencyWarer" xml:space="preserve">
+    <value>PlacementsAgencyWarer</value>
+  </data>
+  <data name="constPlacementsDepEco" xml:space="preserve">
+    <value>PlacementsDepEco</value>
+  </data>
+  <data name="constPlacementsDistrictCEC" xml:space="preserve">
+    <value>PlacementsDistrictCEC</value>
+  </data>
+  <data name="constPlacementsDSA" xml:space="preserve">
+    <value>PlacementsDSA</value>
+  </data>
+  <data name="constPlacementsGeologicalCompany" xml:space="preserve">
+    <value>PlacementsGeologicalCompany</value>
+  </data>
+  <data name="constPlacementsGeologicalService" xml:space="preserve">
+    <value>PlacementsGeologicalService</value>
+  </data>
+  <data name="constPlacementsMinistryECO" xml:space="preserve">
+    <value>PlacementsMinistryECO</value>
+  </data>
+  <data name="constPlacementsRAW" xml:space="preserve">
+    <value>PlacementsRAW</value>
+  </data>
+  <data name="constPlacementsRSA" xml:space="preserve">
+    <value>PlacementsRSA</value>
+  </data>
+  <data name="constRegion" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="constRegionAgencyWarer" xml:space="preserve">
+    <value>RegionAgencyWarer</value>
+  </data>
+  <data name="constRegionCEC" xml:space="preserve">
+    <value>RegionCEC</value>
+  </data>
+  <data name="constRSA" xml:space="preserve">
+    <value>RSA</value>
+  </data>
+  <data name="FullAgencyWarer" xml:space="preserve">
+    <value>Державне Агенство Водних ресурсів України</value>
+  </data>
+  <data name="FullGeologicalService" xml:space="preserve">
+    <value>Державна Служба Геології та Надр України</value>
+  </data>
+  <data name="FullMinistryECO" xml:space="preserve">
+    <value>Міністерство Екології Та Природних Ресурсів України</value>
+  </data>
+  <data name="ShortAgencyWarer" xml:space="preserve">
+    <value>ДержВодАгенство України</value>
+  </data>
+  <data name="ShortGeologicalService" xml:space="preserve">
+    <value>Геологічна служба України</value>
+  </data>
+  <data name="ShortMinistryECO" xml:space="preserve">
+    <value>МінПрироди України</value>
+  </data>
+  <data name="stringUkraine" xml:space="preserve">
+    <value>Украина</value>
+  </data>
+  <data name="ShortGeologicalCompany" xml:space="preserve">
+    <value>Геологическая компания Украины</value>
+  </data>
+  <data name="constUkraine" xml:space="preserve">
+    <value>Ukraine</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Ukraine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\32_Ukraine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Ukraine</comment>
+  </data>
+  <data name="UkraineMain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UkraineMain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DistrictSES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\ico\РайСЕС\Районная СЕС.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EcologyDepartment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\ico\Экология\32Х32\Иконка.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EcologyInspections" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\ico\Экологическая инспекция\32X32\Герб.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Geological" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\ico\Геология\32Х32\Герб.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RegionAgencyWarer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\ico\ВодХоз\ВодХоз.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RegionSES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Data\ico\Обл СЕС\32Х32\Герб.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stringDepartmentECO" xml:space="preserve">
+    <value>Управління Екології</value>
+  </data>
+  <data name="stringDistrictSES" xml:space="preserve">
+    <value>Районна СЕС</value>
+  </data>
+  <data name="stringRegionRAW" xml:space="preserve">
+    <value>Управління водних ресурсів</value>
+  </data>
+  <data name="stringRegionSES" xml:space="preserve">
+    <value>Обласна СЕС</value>
+  </data>
+  <data name="xmlBuilding" xml:space="preserve">
+    <value>Building</value>
+  </data>
+  <data name="xmlCorpus" xml:space="preserve">
+    <value>Corpus</value>
+  </data>
+  <data name="xmlDistrict" xml:space="preserve">
+    <value>District</value>
+  </data>
+  <data name="xmlIndex" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="xmlOfficeName" xml:space="preserve">
+    <value>OfficeName</value>
+  </data>
+  <data name="xmlOfficeType" xml:space="preserve">
+    <value>OfficeType</value>
+  </data>
+  <data name="xmlRegion" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="xmlSettlementName" xml:space="preserve">
+    <value>SettlementName</value>
+  </data>
+  <data name="xmlSettlementType" xml:space="preserve">
+    <value>SettlementType</value>
+  </data>
+  <data name="xmlToponimType" xml:space="preserve">
+    <value>ToponimType</value>
+  </data>
+  <data name="xmlAddress" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="xmlToponimName" xml:space="preserve">
+    <value>ToponimName</value>
+  </data>
+  <data name="xmlConstName" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;FullName&gt;&lt;FirstName /&gt;&lt;ParentName /&gt;&lt;LastName /&gt;&lt;/FullName&gt;</value>
+  </data>
+  <data name="xmlFirstName" xml:space="preserve">
+    <value>FirstName</value>
+  </data>
+  <data name="xmlFullName" xml:space="preserve">
+    <value>FullName</value>
+  </data>
+  <data name="xmlLastName" xml:space="preserve">
+    <value>LastName</value>
+  </data>
+  <data name="xmlParentName" xml:space="preserve">
+    <value>ParentName</value>
+  </data>
+  <data name="xmlConstAddress" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;Address&gt;&lt;Index /&gt;&lt;Region /&gt;&lt;District /&gt;&lt;SettlementType /&gt;&lt;SettlementName /&gt;&lt;ToponimType /&gt;&lt;ToponimName /&gt;&lt;Building /&gt;&lt;Corpus /&gt;&lt;OfficeType /&gt;&lt;OfficeName /&gt;&lt;/Address&gt;</value>
+  </data>
+</root>

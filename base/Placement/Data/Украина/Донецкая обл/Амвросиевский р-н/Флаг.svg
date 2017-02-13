@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2200"
+   height="1470"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   version="1.0"
+   sodipodi:docbase="C:\Documents and Settings\1\Рабочий стол"
+   sodipodi:docname="Флаг Амвросиевского района Донецкой области.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.10254953"
+     inkscape:cx="3291.7989"
+     inkscape:cy="395.95143"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     width="2200px"
+     height="1470px"
+     inkscape:window-width="884"
+     inkscape:window-height="579"
+     inkscape:window-x="182"
+     inkscape:window-y="79" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g4144"
+       transform="matrix(1.0299003,0,0,1,-2339.867,-2.8889014)">
+      <g
+         transform="translate(2240,2.8889014)"
+         id="g3145">
+        <rect
+           style="fill:#00a24c;fill-opacity:1;stroke:none;stroke-width:63.87096405;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect2170"
+           width="2136.1292"
+           height="735"
+           x="31.935425"
+           y="735" />
+        <rect
+           style="fill:#e41e26;fill-opacity:1;stroke:none;stroke-width:63.87096405;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect3143"
+           width="2136.1292"
+           height="735"
+           x="31.935425"
+           y="0" />
+      </g>
+      <g
+         transform="matrix(1,0,0,1.0027284,2245.7846,2.8889591)"
+         id="g4122">
+        <path
+           style="fill:#fff11b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 954.7407,1466.0001 L 1284,1466.0001 C 1479.0038,1075.3864 1268.652,840.78909 1092.1482,731.00005 C 1180.8634,921.8393 1327.836,1194.1623 954.7407,1466.0001 z "
+           id="path3149"
+           sodipodi:nodetypes="cccc" />
+        <path
+           style="fill:#fff11b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 1233.6901,-5e-005 L 904.43079,-5e-005 C 709.42699,390.61365 919.77879,625.21091 1096.2826,734.99995 C 1007.5673,544.1607 860.59479,271.83775 1233.6901,-5e-005 z "
+           id="path4120"
+           sodipodi:nodetypes="cccc" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Placements.main.cDistrict">
+    <Position X="3.75" Y="0.75" Width="4" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Placements.main.cDistrict.cDSA" Collapsed="true">
+        <NestedTypes>
+          <Class Name="Placements.main.cDistrict.cDSA.cPlacementsDSA" Collapsed="true">
+            <TypeIdentifier>
+              <NewMemberFileName>main\cDistrict.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>main\cDistrict.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Placements.main.cDistrict.cDistrictCEC" Collapsed="true">
+        <Compartments>
+          <Compartment Name="Nested Types" Collapsed="false" />
+        </Compartments>
+        <NestedTypes>
+          <Class Name="Placements.main.cDistrict.cDistrictCEC.cPlacementsDistrictCEC">
+            <TypeIdentifier>
+              <NewMemberFileName>main\cDistrict.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>main\cDistrict.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAIQEEAAAAAAAAAAAACCAAAAAACAAA=</HashCode>
+      <FileName>main\cDistrict.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Placements.main.cRegion">
+    <Position X="0.75" Y="0.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Placements.main.cRegion.cRSA" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>main\cRegion.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Placements.main.cRegion.cRegionCEC" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>main\cRegion.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Placements.main.cRegion.cDepartmentECO">
+        <Compartments>
+          <Compartment Name="Nested Types" Collapsed="false" />
+        </Compartments>
+        <NestedTypes>
+          <Class Name="Placements.main.cRegion.cDepartmentECO.cPlacementsDepEco" Collapsed="true">
+            <TypeIdentifier>
+              <NewMemberFileName>main\cRegion.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>main\cRegion.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Placements.main.cRegion.cRegionAgencyWarer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>main\cRegion.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAIAEAAAAAAAAAAAAACAEAAAAACAAA=</HashCode>
+      <FileName>main\cRegion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

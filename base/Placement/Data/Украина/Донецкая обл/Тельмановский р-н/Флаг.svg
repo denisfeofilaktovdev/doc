@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<svg
+version="1.1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="450"
+height="300">
+<defs>
+<path id="star" fill="#FFF015"
+d="M 0 -12 Q 0 0 18 0 Q 0 0 0 12 Q 0 0 -18 0 Q 0 0 0 -12" />
+<rect id="green" width="450" height="200" x="0" y="0"
+style="fill:#238036;stroke:#FBEE0F;stroke-width:6px;" />
+<clipPath id="flag">
+<rect width="450" height="300" />
+</clipPath>
+</defs>
+<rect width="450" height="300" fill="#2148C0" />
+
+<use xlink:href="#green" transform="translate(94 -103)" clip-path="#flag" /> 
+<use xlink:href="#green" transform="translate(94 203)" clip-path="#flag" />
+
+<use xlink:href="#star" transform="translate(25 150)" />
+<use xlink:href="#star" transform="rotate(13.33333 225 150) translate(25 150)" />
+<use xlink:href="#star" transform="rotate(26.66667 225 150) translate(25 150)" />
+<use xlink:href="#star" transform="rotate(40 225 150) translate(25 150)" />
+<use xlink:href="#star" transform="rotate(-13.33333 225 150) translate(25 150)" />
+<use xlink:href="#star" transform="rotate(-26.66667 225 150) translate(25 150)" />
+<use xlink:href="#star" transform="rotate(-40 225 150) translate(25 150)" />
+</svg>

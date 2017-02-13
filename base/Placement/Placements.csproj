@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{71A9A377-1769-4E7F-8C32-21FED0EE280E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Placements</RootNamespace>
+    <AssemblyName>Placements</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\3Party\Libs\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.ActiveRecord">
+      <HintPath>..\3Party\Libs\Castle.ActiveRecord.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.ActiveRecord.Linq">
+      <HintPath>..\3Party\Libs\Castle.ActiveRecord.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Components.Validator">
+      <HintPath>..\3Party\Libs\Castle.Components.Validator.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Core">
+      <HintPath>..\3Party\Libs\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.DynamicProxy2">
+      <HintPath>..\3Party\Libs\Castle.DynamicProxy2.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\3Party\Libs\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\3Party\Libs\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Lucene.Net">
+      <HintPath>..\3Party\Libs\Lucene.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\3Party\Libs\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.ByteCode.Castle">
+      <HintPath>..\3Party\Libs\NHibernate.ByteCode.Castle.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Linq">
+      <HintPath>..\3Party\Libs\NHibernate.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Search">
+      <HintPath>..\3Party\Libs\NHibernate.Search.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>..\3Party\Libs\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\3Party\Libs\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.SQLite, Version=1.0.99.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\3Party\Libs\SQLite\System.Data.SQLite.Core.1.0.99.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="!kernel\XMLAddition\cXML.cs" />
+    <Compile Include="!kernel\ListViewAddition\ListViewIcon.cs" />
+    <Compile Include="!kernel\ListViewAddition\ListViewSorter.cs" />
+    <Compile Include="db\dbClass\tDepartmentECO.cs" />
+    <Compile Include="db\dbClass\tDistrictCEC.cs" />
+    <Compile Include="db\dbClass\tDistrictStateAdministration.cs" />
+    <Compile Include="db\dbClass\tPlacementRegionCEC.cs" />
+    <Compile Include="db\dbClass\tPlacementsDepEco.cs" />
+    <Compile Include="db\dbClass\tPlacementsDistrictCEC.cs" />
+    <Compile Include="db\dbClass\tPlacementsDistrictStateAdministration.cs" />
+    <Compile Include="db\dbClass\tPlacementsRegionAgencyWarer.cs" />
+    <Compile Include="db\dbClass\tPlacementsRegionalStateAdministration.cs" />
+    <Compile Include="db\dbClass\tRegionAgencyWarer.cs" />
+    <Compile Include="db\dbClass\tRegionalStateAdministration.cs" />
+    <Compile Include="db\dbClass\tRegionCEC.cs" />
+    <Compile Include="db\dbClass\Ukraine\tDistrict.cs" />
+    <Compile Include="db\dbClass\Ukraine\tRegion.cs" />
+    <Compile Include="db\dbPlacemans.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbPlacemans.actiw</DependentUpon>
+    </Compile>
+    <Compile Include="db\TiD.cs" />
+    <Compile Include="main\cDistrict.cs" />
+    <Compile Include="main\cNavigation.cs" />
+    <Compile Include="main\cRegion.cs" />
+    <Compile Include="src\EditDepartment\frmAdressDepartament.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\EditDepartment\frmAdressDepartament.Designer.cs">
+      <DependentUpon>frmAdressDepartament.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\EditDepartment\frmEditDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\EditDepartment\frmEditDepartment.Designer.cs">
+      <DependentUpon>frmEditDepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\EditDistrict\frmEditDistrict.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\EditDistrict\frmEditDistrict.Designer.cs">
+      <DependentUpon>frmEditDistrict.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\EditPlaceman\frmEditFIO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\EditPlaceman\frmEditFIO.Designer.cs">
+      <DependentUpon>frmEditFIO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\EditPlaceman\frmEditPlaceman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\EditPlaceman\frmEditPlaceman.Designer.cs">
+      <DependentUpon>frmEditPlaceman.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\EditRegion\frmEditRegion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\EditRegion\frmEditRegion.Designer.cs">
+      <DependentUpon>frmEditRegion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\MainForm\frmMainPlacements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\MainForm\frmMainPlacements.Designer.cs">
+      <DependentUpon>frmMainPlacements.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="!kernel\TreeViewAddition\AllNodes.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="db\dbPlacemans.actiw">
+      <Generator>ActiveWriterCodeGenerator</Generator>
+      <LastGenOutput>dbPlacemans.cs</LastGenOutput>
+    </None>
+    <None Include="db\dbPlacemans.actiw.diagram">
+      <DependentUpon>dbPlacemans.actiw</DependentUpon>
+    </None>
+    <None Include="db\Placements.db" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="main\cPlacements.cs" />
+    <Compile Include="!kernel\nHibernate\DB.cs" />
+    <Compile Include="!kernel\nHibernate\DB.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="src\EditDepartment\frmAdressDepartament.resx">
+      <DependentUpon>frmAdressDepartament.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\EditDepartment\frmEditDepartment.resx">
+      <DependentUpon>frmEditDepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\EditDistrict\frmEditDistrict.resx">
+      <DependentUpon>frmEditDistrict.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\EditPlaceman\frmEditFIO.resx">
+      <DependentUpon>frmEditFIO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\EditPlaceman\frmEditPlaceman.resx">
+      <DependentUpon>frmEditPlaceman.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\EditRegion\frmEditRegion.resx">
+      <DependentUpon>frmEditRegion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\MainForm\frmMainPlacements.resx">
+      <DependentUpon>frmMainPlacements.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="db\tPlacementsRegionAgencyWarer.hbm.xml">
+      <DependentUpon>dbPlacemans.actiw</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32_Ukraine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UkraineMain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\ico\Обл СЕС\Здание СЕС.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\ico\Экология\Экология.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\ico\ВодХоз\ВодХоз.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\ico\РайСЕС\Районная СЕС.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\ico\Экологическая инспекция\32X32\Герб.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\ico\Обл СЕС\32Х32\Герб.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\ico\Экология\32Х32\Иконка.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\ico\Геология\32Х32\Герб.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="db\tPlacementsRegionalStateAdministration.hbm.xml">
+      <DependentUpon>dbPlacemans.actiw</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="db\tRegionalStateAdministration.hbm.xml">
+      <DependentUpon>dbPlacemans.actiw</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="db\tPlacementsDistrictStateAdministration.hbm.xml">
+      <DependentUpon>dbPlacemans.actiw</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="db\tDistrict.hbm.xml">
+      <DependentUpon>dbPlacemans.actiw</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="db\tRegionAgencyWarer.hbm.xml">
+      <DependentUpon>dbPlacemans.actiw</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="db\tPlacementsDistrictCEC.hbm.xml">
+      <DependentUpon>dbPlacemans.actiw</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="db\tRegion.hbm.xml">
+      <DependentUpon>dbPlacemans.actiw</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="db\tPlacementRegionCEC.hbm.xml">
+      <DependentUpon>dbPlacemans.actiw</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="db\tDistrictCEC.hbm.xml">
+      <DependentUpon>dbPlacemans.actiw</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="db\tDistrictStateAdministration.hbm.xml">
+      <DependentUpon>dbPlacemans.actiw</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="db\tDepartmentECO.hbm.xml">
+      <DependentUpon>dbPlacemans.actiw</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="db\tPlacementsDepEco.hbm.xml">
+      <DependentUpon>dbPlacemans.actiw</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="db\tRegionCEC.hbm.xml">
+      <DependentUpon>dbPlacemans.actiw</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="x64\SQLite.Interop.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x86\SQLite.Interop.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
